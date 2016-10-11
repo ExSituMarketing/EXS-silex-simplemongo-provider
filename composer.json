@@ -1,0 +1,33 @@
+    {
+    "name": "exs/silex-simplemongo-provider",
+    "description": "Simple mongdb provider for Silex2",
+    "keywords": [
+        "silex",
+        "mongodb",
+        "provider"
+    ],
+    "homepage": "https://github.com/ExSituMarketing/EXS-silex-simplemongo-provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "slee",
+            "email": "lee@ex-situ.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "silex/silex": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "EXS\\SimpleMongoProvider": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "EXS/SimpleMongoProvider",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }    
+}
